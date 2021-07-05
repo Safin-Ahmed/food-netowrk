@@ -1,0 +1,11 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #575757;
+}
+.orange {
+    background: linear-gradient(#FBA24F,#FF1E1E);
+}
