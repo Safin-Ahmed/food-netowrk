@@ -131,7 +131,11 @@ p {
 }
 
 .recipies-section {
-  padding-top: 10px;
+  padding-top: 5px;
+}
+.recipies-section h1 {
+    font-size: 40px;
+
 }
 .recipie-para {
     padding: 0 340px;
