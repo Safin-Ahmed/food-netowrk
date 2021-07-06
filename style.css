@@ -2,10 +2,54 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+    margin: 50px 50px;
+}
+.dot-bg {
+    background-image: url(images/female/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: 1182px 585px;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
 h1 {
     font-size: 60px;
     color: #575757;
+    line-height: 78px;
+}
+
+p {
+    color: #828282;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+
 }
 .orange {
-    background: linear-gradient(#FBA24F,#FF1E1E);
+    color: #FBA24F;
+
+}
+.button {
+    border-radius: 100px;
+    padding: 24px 40px;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.hero-item p {
+    margin-bottom: 80px;
 }
