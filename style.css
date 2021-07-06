@@ -5,7 +5,19 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-
+header {
+    padding: 1% 5%;
+}
+header div.logo {
+    width: 25%;
+}
+header ul.menu {
+    width: 50%;
+    gap: 0;
+}
+header ul.cart-menu{
+    width: 25%;
+}
 header ul.menu, header ul.cart-menu {
     margin: 0;
     padding: 0;
@@ -14,6 +26,16 @@ header ul.menu, header ul.cart-menu {
 header ul.menu li a {
     font-weight: 500;
     font-size: 20px;
+    padding: 10px 25px;
+    color: #333;
+    border-radius: 30px;
+    background: transparent;
+    text-decoration: none;
+}
+header ul.menu li a:hover {
+    background-image: linear-gradient(#FBA24F , #fc7f42);
+    color: #fff;
+    border-radius: 30px;
 }
 section {
     margin: 50px 50px;
@@ -193,7 +215,7 @@ footer ul.sitemap, header ul {
     margin-bottom: 50px;
 }
 
-footer ul li a, header ul li a  {
+footer ul li a,{
     color: #fff;
     text-decoration: none;
 }
