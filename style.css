@@ -6,12 +6,24 @@ body {
     margin: 0;
 }
 
+header ul.menu, header ul.cart-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+}
 section {
     margin: 50px 50px;
 }
 
 .text-center {
     text-align: center;
+}
+.text-white {
+    color: #000;
 }
 .dot-bg {
     background-image: url(images/female/Group\ 88.png);
@@ -148,12 +160,12 @@ footer{
     padding-bottom: 10px;
     margin-top: 150px;
 }
-footer h1 span {
+footer h1 span, .logo h1 span {
     background: linear-gradient(to right,#FBA24F , #fc7f42);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-footer h1 {
+footer h1, .logo h1 {
     font-family: Manrope;
     font-style: normal;
     font-weight: 800;
@@ -172,7 +184,7 @@ footer p {
     margin-top: 70px;
 }
 
-footer ul.sitemap {
+footer ul.sitemap, header ul {
     justify-content: center;
     gap: 40px;
     margin: 0;
@@ -181,20 +193,20 @@ footer ul.sitemap {
     margin-bottom: 50px;
 }
 
-footer ul li a {
+footer ul li a, header ul li a  {
     color: #fff;
     text-decoration: none;
 }
 .final-footer {
     padding: 0 5%;
 }
-.final-footer ul {
+.final-footer ul, header ul.cart-menu {
     gap: 0px;
     justify-content: flex-end;
 }
-.final-footeru ul li a {
+.final-footer ul li a, header ul.cart-menu li a {
     text-decoration: none;
 }
-.final-footer ul li a img {
+.final-footer ul li a img, header ul.cart-menu li a img {
     width: 50%;
 }
