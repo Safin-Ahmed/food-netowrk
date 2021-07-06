@@ -142,3 +142,59 @@ p {
 .count-item p {
     margin: 0;
 }
+footer{
+    background: #0B0D17;
+    padding: 50px 0;
+    padding-bottom: 10px;
+    margin-top: 150px;
+}
+footer h1 span {
+    background: linear-gradient(to right,#FBA24F , #fc7f42);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer h1 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+}
+footer p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.final-footer .copyright p,{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+footer ul.sitemap {
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.final-footer {
+    padding: 0 5%;
+}
+.final-footer ul {
+    gap: 0px;
+    justify-content: flex-end;
+}
+.final-footeru ul li a {
+    text-decoration: none;
+}
+.final-footer ul li a img {
+    width: 50%;
+}
