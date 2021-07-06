@@ -5,6 +5,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+.announcement-bar {
+    background-image: linear-gradient(#FBA24F , #fc7f42);
+    padding: 10px 0;
+}
+.announcement-bar h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
 header {
     padding: 1% 5%;
 }
@@ -215,7 +225,7 @@ footer ul.sitemap, header ul {
     margin-bottom: 50px;
 }
 
-footer ul li a,{
+footer ul li a{
     color: #fff;
     text-decoration: none;
 }
